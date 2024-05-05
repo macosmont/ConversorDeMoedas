@@ -20,11 +20,8 @@ public class Convertor {
 
     @Override
     public String toString() {
-        return "Convertor{" +
-                "valor=" + valor +
-                ", quantidade=" + quantidade* valor +
-                ", moedaConvertora='" + moedaConvertora + '\'' +
-                ", moedaConvertida='" + moedaConvertida + '\'' +
-                '}';
+        return "Valor " + quantidade +" corresponde ao valor final de " + (quantidade* valor) + " " +moedaConvertida;
+
+
     }
 }
